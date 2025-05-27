@@ -126,7 +126,7 @@ Resources:
       SourceBucketNames:
         - Fn::Sub: cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}
       SourceObjectKeys:
-        - 49bd249341a5d0b0299ec36d3cf29a5eddcafd51e2df1fef0bde419f1ea51c68.zip
+        - 321cd08939cc1cb657cac4bc23f77a350161b01c8702802fe3f4a819e31ed0d4.zip
       DestinationBucketName:
         Ref: deploymentFrontendBucket67CEB713
       Prune: true
